@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Examen Boostrap</title>
+    <meta author="Adrián Rodríguez Fuentes"
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <style>
+        .botonInicio {
+            border-radius: 5%;
+            width: 50px;
+            height: 50px;
+        }
+
+        .buscarInput {
+            border-right: 0;
+            border-left: 0;
+            border-top: 0;
+            border-radius: 0;
+        }
+
+        .paginacion {
+            padding-top: 20px;
+
+        }
+
+   
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand" href="#"><img class="botonInicio" src="./imagenes/flecha.jpg"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+                aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Productos <span class="badge badge-warning">30</span></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#exampleModal" href="#">Registro   <i class='fas fa-user-circle' style='font-size:15px'></i></a>
+
+                    </li>
+                </ul>
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2 bg-dark buscarInput" type="text" placeholder="Buscar"
+                        aria-label="Buscar">
+                </form>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid mt-3">
+        <div class="row">
+            <div class="col-xl-1 d-none d-xl-block  ">
+            </div>
+            <div class="col-xl-7 col-lg-8 col-md-8 ">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 order-1 order-sm-3 order-md-2 order-lg-4 order-xl-1">
+                        <p class="text-justify">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book. It has survived not only five centuries, but also the leap into electronic
+                            typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                            release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                            desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 order-3 order-sm-1 order-md-3 order-lg-2 order-xl-2 ">
+                        <div class="card">
+                            <img class="card-img-top" src="./imagenes/image1.jpg" alt="imagen de un bosque">
+                            <div class="card-body">
+                                <h5 class="card-title">Excursión 1</h5>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry.</p>
+                            </div>
+                            <div class="card-footer text-muted">
+                                Paisajes de ensueño
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 order-4 order-sm-2 order-md-4 order-lg-3 order-xl-3">
+                        <div class="card">
+                            <img class="card-img-top" src="./imagenes/image2.jpg" alt="imagen de una montaña">
+                            <div class="card-body">
+                                <h5 class="card-title">Excursión2</h5>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry..</p>
+                            </div>
+                            <div class="card-footer text-muted">
+                                ¡Vistas increibles!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 m-3 order-2 order-sm-4 order-md-1 order-lg-1 order-xl-4">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Distancia</th>
+                                    <th>Precio</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="table-primary">Zona A</td>
+                                    <td>10 km</td>
+                                    <td>25 €</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-danger">Zona B</td>
+                                    <td>15 km</td>
+                                    <td>30 €</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-info">Zona C</td>
+                                    <td>20 km</td>
+                                    <td>35 €</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-warning">Zona D</td>
+                                    <td>30 km</td>
+                                    <td>50 €</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+              
+            </div>
+            <div class="col-xl-1 d-none d-xl-block ">
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-4 d-sm-block  d-none  d-lg-block d-xl-block  d-md-block ">
+                <div class="d-flex justify-content-between  mb-3">
+                    <div class="p-2 "><i class='fas fa-shopping-cart' style='font-size:24px'></i></div>
+                    <div class="p-2 ">
+                        <h4 class="mb-1 ">Compras</h4>
+                    </div>
+                    <div class="p-2 "> <span class="badge badge-pill badge-success">3</span></div>
+                </div>
+
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1 text-danger">Paseo Barco</h5>
+                            <h5>20 €</h5>
+                        </div>
+                        <small>Por islote</small>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1 text-primary">Visita museo</h5>
+                            <h5>10 €</h5>
+                        </div>
+                        <small>Arte</small>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1 text-warning">Almuerzo</h5>
+                            <h5>30 €</h5>
+                        </div>
+                        <small>Pescado</small>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1 text-success">Excursión</h5>
+                            <h5>25 €</h5>
+                        </div>
+                        <small>zona A</small>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1 text-info">Cena</h5>
+                            <h5>15 €</h5>
+                        </div>
+                        <small>Ligera</small>
+                    </a>
+                    <a href="#"
+                        class="list-group-item list-group-item-action flex-column align-items-start bg-secondary text-white">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Total</h5>
+                            <h5>100 €</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid p-0 bg-dark d-flex justify-content-center  align-self-end  ">
+
+            <nav aria-label="Page navigation">
+                <ul class="pagination paginacion">
+                    <li class="page-item color-primary "><a class="page-link bg-light text-dark" href="#">FaQs</a></li>
+                    <li class="page-item"><a class="page-link bg-dark text-white" href="#">Contacto</a></li>
+                    <li class="page-item"><a class="page-link bg-success text-white" href="#">Condiciones</a></li>
+                    <li class="page-item "><a class="page-link bg-info text-white" href="#">Normativa</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </footer>
+
+    <!--Formulario-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <h4 class="modal-title" id="exampleModalLabel">¡Apúntate a nuestra Newsletter!</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form class="was-validated">
+                        <div class="form-group" >
+                            <div class="form-group">
+                                <label for="uname">Email:</label>
+                                <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+                                <div class="valid-feedback">El email parece correcto</div>
+                              </div>
+                              <hr>
+                        <div class="form-group form-check">
+                            <label class="form-check-label">
+                              <input class="form-check-input" type="checkbox" name="remember" required> Estoy de acuerdo con las Condiciones
+                        
+                            </label>
+                          </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Registro</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,183 @@
+ body {
+     font-family: helvetica;
+ }
+
+ .carousel-inner img {
+     width: 100%;
+     height: 100%;
+ }
+
+ .container {
+     padding: 30px;
+ }
+
+ body {
+     background-color: #f8f8f8;
+ }
+
+ .navegacionPC {
+     background-color: #f8f8f8;
+   
+
+ }
+ .nav-link {
+    width: 160px;
+
+}
+
+ .nav-link:hover {
+     background-color: #dddd;
+
+ }
+
+ .nav-link {
+     color: black;
+ }
+
+ .imgProducto{
+    height: 130px;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+}
+.logoMovil{
+    width: 150px;
+    height: 30px;
+}
+.carouselPortada{
+    border-radius: 15px;
+}
+
+ .precio {
+     text-align: center;
+ }
+
+ .enlaces {
+     text-align: center;
+
+ }
+ .colorEnlace {
+    color:#0053B8;
+
+}
+
+ .boton {
+     text-align: center;
+ }
+
+
+ fieldset {
+     border-style: solid;
+     border-color: black
+ }
+
+ .recuadroFiltro{
+     padding: 15px;
+ }
+
+ .mostrarPorPagina {
+     text-align: right;
+ }
+
+ .card {
+     border-style: solid;
+     border-color: black;
+     border-width: thin;
+     width: 200px;
+     height: 280px;
+     border-radius: 15px;
+     font-size: 14px
+ }
+
+ h6 {
+     font-weight: bold;
+ }
+
+ form {
+     padding-left: 8px;
+ }
+
+ .titulo {
+     padding: 15px;
+     text-align: center;
+     font-style: italic;
+     font-size: 30px;
+
+ }
+ .final{
+     margin-top: 10px;
+ 
+ }
+ .copyright {
+    text-align: center;  
+
+ }
+ .vectores{
+    width:25px;
+    height:25px;
+ }
+
+
+
+ .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    background-color: #E80405;
+    padding-top: 60px;
+    transition: 0.5s;
+    overflow-x: hidden; 
+  }
+
+ 
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    display: block;
+    transition: 0.3s
+  }
+
+
+  .sidenav a:hover,
+  .offcanvas a:focus {
+    font-weight: bold;
+  }
+
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+
+  }
+
+
+
+
+  .topnav {
+    background-color: #E80405;
+    overflow: hidden;
+  }
+
+  
+  .topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .cesta {
+    padding-top: 14px;
+  }
+  .barraMovil{
+    padding-left: 0;
+    padding-right: 0;
+  }
